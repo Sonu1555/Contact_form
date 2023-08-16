@@ -15,34 +15,18 @@ body {
   justify-content: center;
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 16px;
-}
-
-.previous{
-  background-color: #ffffff;
-}
-
-.previous:hover{
-  border-radius: 23px;
-  transition: ease-in;
-  background-color: rgb(165, 55, 239);
-  color: #f1f1f1;
-}
-
 .container {
   max-width: 1100px;
   width: 100%;
   padding: 20px 60px 30px 40px;
   background: rgba(137, 240, 232, 0.25);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
 .container .content {
   display: flex;
   align-items: center;
